@@ -2,7 +2,7 @@
     "private": true,
     "scripts": {
         "dev": "vite",
-        "build": "composer require && php artisan passport:install && vite build && chown www-data:www-data storage/oauth-*.key && chmod 600 storage/oauth-*.key"
+        "build": "composer require && vite build"
     },
     "devDependencies": {
         "@tailwindcss/forms": "^0.5.2",
